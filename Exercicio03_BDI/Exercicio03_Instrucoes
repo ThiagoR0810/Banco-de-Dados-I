@@ -1,0 +1,29 @@
+Exercicio 03 de BD I e de LBD I - Comandos DDL (Linguagem de Definição de Dados) e DML
+(Linguagem de Manipulação de Dados) - 1 ponto, em duplas.
+
+Divulgação: 05/04/2024. Data de entrega: 12/04/2024 (via AVA, somente em BD I). Para 
+auxiliar a solução desse exercício, recomenda-se seguir o roteiro da aula prática sobre comandos
+DDL, disponível no AVA junto a esse exercício. O roteiro refere-se à Aula 3 de BD I e LBD I,
+cujo script com os comandos tamb´me está disponível, também junto ao exercício.
+
+Apresente os comandos SQL para as seguintes questões. Inclua também os resultados dos comandos utilizados.
+
+1. Crie as tabelas seguintes, sem chaves primárias e sem chaves estrangeiras.
+    a. TIME (ID, NOME)
+    b. JOGO (DATA, PLACAR_CASA, PLACAR_VISITANTE)
+    c. JOGADOR (CPF, NOME)
+2. Preencha essas tabelas com dados com pelo menos 3 linhas por tabela.
+3. Adicione as chaves primárias TIME.ID e JOGADOR.CPF.
+4. Adicione as chaves estrangeiras em JOGO e JOGADOR, considerando as seguintes integridades 
+   referenciais. As colunas para as chaves estrangeiras também deve ser incluídas
+   (JOGO.ID_CASA, JOGO.ID_VISITANTE, JOGADOR.ID_TIME). Observe o comportamento
+   de remoção nas integridades referenciais ( p, para propagação, e b, para bloqueio.
+    a. JOGO[ID_CASA] -> p TIME[ID]
+    b. JOGO[ID_VISITANTE] -> p TIME[ID]
+    c. JOGADOR[ID_TIME] -> TIME[ID]
+5. Estabeleça as integridades referenciais através de dados em todas as tabelas com chaves estrangeiras.
+   Para isso, preencha as chaves estrangeiras com valores de chaves primárias.
+6. Adicione a chave primária em JOGO, formada pelas chaves estrageiras e pela coluna DATA.
+7. Alterar a coluna de ID_TIME de JOGADOR para obrigatória.
+8. Crie uma chave única em JOGADOR.NOME.
+9. Povoe ou altere todos os dados para que as restrições impostas acima sejam respeitadas.
