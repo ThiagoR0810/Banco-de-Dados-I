@@ -1,0 +1,8 @@
+## Exercício 02 de BDI e LBDI
+## Criação do Banco de Dados Empresa
+
+![image](https://github.com/user-attachments/assets/f3869752-f50f-48dd-88cf-ddfcf11b925a)
+
+1) Apresente os comandos DDL (Data Definition Language) para criação do esquema de dado relacional acima, no qual as setas representam as integridades referencias. A origem de cada seta é chave estrangeira e o destino é a chave primária. Defina tipos e tamanhos de dados de acordo com dados a serem preenchidos na questão 2. Nesse esquema, as chaves estrangeiras não obrigatórias são: DEPARTAMENTO.Cpf_Gerente e FUNCIONARIO.Cpf_Supervisor. As integridades referencias em LOCALIZACOES_DEPARTAMENTO e DEPENDENTE têm comportamento de remoção em cascata, caso suas chaves primárias sejam removidas. A chave primária de PROJETO é Numero_Projeto. Ou seja, apesar de indicado, Local_Projeto não faz parte da chave de PROJETO. CPF_Gerente em DEPARTAMENTO é chave única. A chave primária de LOCALIZACOES_DEPARTAMENTO é Numero_Departamento e Local, embora na figura só apareça Numero_Departamento como chave. Somente as integridades referenciais (chaves estrangeiras) em TRABALHA_EM, LOCALIZACOES_DEPARTAMENTO e DEPENDENTE têm comportamento de remoção em cascata (on delete cascade). Observe que FUNCIONARIO tem uma integridade referencial para ela mesma: FUNCIONARIO[CPF_SUPERVISOR] -> FUNCIONARIO[CPF].
+
+2) Preencha o banco de dados criado na Questão 1 com os dados apresentados na figura abaixo. Apresente todos os comandos DML utilizados. Apresente também tentativas de violação das seguintes restrições: de domínio, de chave, de não nulo, de entidade e de integridade referencial. Pelo menos um exemplo de violação em cada tipo de restrição deve ser apresentado.
