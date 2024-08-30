@@ -2,7 +2,8 @@
 
 Resolva, as seguintes questões, apresentando o comando SQL apropriado. Também apresente os resultados obtidos. Faça isso a partir do esquema de banco de dados relacional abaixo, cujas tabelas são públicas dentro do banco e passíveis de consultas por todos os usuários. O esquema em que se encontram é ALUNO.
 
-![alt text](image.png)
+![Captura de tela de 2024-08-30 09-46-19](https://github.com/user-attachments/assets/89b3a2e2-6683-4473-b507-ac5d07059c57)
+
 
 1) Apresente o último nome e a data de admissão de todos os empregados que começam com a letra ‘R’ no último nome.
 
