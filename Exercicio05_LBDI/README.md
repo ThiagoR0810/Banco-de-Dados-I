@@ -1,6 +1,7 @@
-Exercício 05 - Processamento e Otimização de Consultas
+## Exercício 05 
+## Processamento e Otimização de Consultas
 
-Instruções
+### Instruções
 
 A partir do roteiro de aula prática sobre processamento e otimização de consultas, apresentado na aula do dia 26/07, apresente, para as seguintes consultas abaixo, o plano de execução, a explicação do plano e a seletividade da consulta.
 
