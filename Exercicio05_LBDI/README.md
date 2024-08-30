@@ -1,4 +1,4 @@
-## Exercício 05 
+## Exercício 05 de LBDI
 ## Processamento e Otimização de Consultas
 
 ### Instruções
