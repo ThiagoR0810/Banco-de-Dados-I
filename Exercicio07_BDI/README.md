@@ -1,5 +1,5 @@
 ## Exercício 07 de BDI
-## Modelagem Conceitual com MER
+## Modelagem Conceitual com Modelo Entidade-Relacionamento (MER)
 
 Desenvolva o diagrama de entidades e relacionamentos para cada questão abaixo. Utilize todos os elementos notacionais e todos os conceitos ligados a esse tipo de diagrama, vistos no curso.
 
